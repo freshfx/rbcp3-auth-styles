@@ -1,0 +1,247 @@
+.form-control-group {
+   margin: -1px 0 0;
+   padding: 0;
+   position: relative;
+   clear: both;
+
+   fieldset:nth-of-type(3) > &:not(.is-required) > .form-control-label {
+      margin-bottom: 10px;
+      padding: 18px 0 3px;
+      position: static;
+      font-weight: 300;
+      font-size: 30px;
+      color: #000;
+   }
+}
+.form-control-label,
+.login-label {
+   pointer-events: none;
+   display: block;
+   margin: 0;
+   padding: 11px 2.5%;
+   position: absolute;
+   top: 0px;
+   left: 0px;    
+   width: 95%;
+   float: none;
+   font-size: 12px;
+   font-weight: 400;
+   color: #a8a8a8;
+   -webkit-transition: opacity .2s ease, top .2s ease;
+   -moz-transition: opacity .2s ease, top .2s ease;
+   transition: opacity .2s ease, top .2s ease;
+   z-index: 2;
+}
+body#login-page #form-container label.login-label,
+body#error-page #form-container label.login-label {
+  margin: 0;
+  width: 95%;
+  text-align: left;
+}
+body#login-page #form-container label[for="username"] {
+    top: 0px;
+}
+body#login-page #form-container label[for="password"] {
+    top: 61px;
+}
+
+.form-control-label[for="s2id_autogen1"],
+.form-control-label[for="s2id_autogen2"],
+.form-control-label[for="languagePreference"],
+.form-control-label[for="country"] {
+   margin: 10px 0 23px;
+   padding-left: 0;
+   padding-right: 30px;
+   position: relative;
+   top: 0px;
+   width: auto;
+   float: left;
+   opacity: 1;
+}
+.form-controls li label,
+.form-control-label[for="s2id_autogen1"],
+.form-control-label[for="s2id_autogen2"],
+.form-control-label[for="languagePreference"],
+.form-control-label[for="country"],
+.form-control-label.add {
+   font-size: 16px;
+   font-weight: 400;
+}
+.form-control-label[for="s2id_autogen1"],
+.form-control-label[for="s2id_autogen2"],
+.form-control-label[for="languagePreference"],
+.form-control-label[for="country"] {
+   margin: 20px 0 0;
+   padding-left: 0;
+   padding-right: 0;
+}
+
+.form-control-label[for="captchaAnswer"] {
+  top: auto;
+  bottom: 25px;
+}
+
+.has-error .form-control-label[for="captchaAnswer"] {
+  bottom: 64px;
+}
+
+.form-controls {
+   width: 100%;
+   float: none;
+}
+
+.is-required .form-controls:before {
+  display: none;
+}
+
+.form-control-label[for="gender"] + .form-controls {
+   padding: 1.9em 0 8px;
+   width: auto;
+   max-height: 62px;
+   border: 1px solid #ccc;
+}
+.form-controls li label {
+   display: inline-block;
+   margin-top: -3px;
+   color: #a8a8a8;
+   vertical-align: top;
+}
+.form-control-label[for="gender"] + .form-controls input[type="radio"] {
+    display: none;
+}
+.form-control-label[for="gender"] + .form-controls ul {
+    padding-top: 1px;
+}
+.form-control-label[for="gender"] + .form-controls li {
+    margin-right: 0;
+    padding: 0 10px;
+    position: relative;
+}
+.form-control-label[for="gender"] + .form-controls label {
+    cursor: pointer;
+}
+.form-control-label[for="gender"] + .form-controls li:first-child:after {
+    content: "|";
+    display: block;
+    position: absolute;
+    top: -3px;
+    left: 100%;
+    color: #a8a8a8;
+}
+input[type="radio"]:checked + label {
+    text-decoration: underline;
+    color: #222 !important;
+}
+input[type="text"],
+input[type="password"],
+input[type="search"],
+input[type="email"],
+.form-controls > span,
+.form-control-group > span,
+.form-controls > i,
+.chzn-container-multi .chzn-choices {
+   display: block;
+   padding: 1.9em 10px 8px;
+   position: relative;
+   width: 100%;
+   height: auto;
+   background-image: none;
+   background-color: #fff;
+   color: #222;
+   min-height: 27px;
+   border: 1px solid #ccc;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+   -webkit-transition: color .4s ease, border-color .4s ease, background-color .4s ease;
+   -moz-transition: color .4s ease, border-color .4s ease, background-color .4s ease;
+   -ms-transition: color .4s ease, border-color .4s ease, background-color .4s ease;
+   -o-transition: color .4s ease, border-color .4s ease, background-color .4s ease;
+   transition: color .4s ease, border-color .4s ease, background-color .4s ease;
+}
+
+body#login-page #form-container input[type="text"],
+body#error-page #form-container input[type="text"],
+body#login-page #form-container input[type="password"],
+body#error-page #form-container input[type="password"] {
+   margin: -1px 0 0 !important;
+   width: 100%;
+   background-color: #fff;
+   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="email"]:focus,
+.chzn-container-active .chzn-choices,
+body#login-page #form-container input[type="text"]:focus,
+body#error-page #form-container input[type="text"]:focus,
+body#login-page #form-container input[type="password"]:focus,
+body#error-page #form-container input[type="password"]:focus {
+   background: #f9f9f9;
+   color: #0c80c3;
+   outline: 0;
+   border-color: #ccc;
+}
+
+
+.row.remember-me {
+  margin: 18px 0;
+  position: relative;
+
+  span {
+    display: block;
+    padding: 0 28px;
+
+    &:before,
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+    }
+    &:before {
+      width: 16px;
+      height: 16px;
+      top: 2px;
+      left: 0;
+      border: 1px solid #444;
+    }
+    &:after {
+      display: none;
+      width: 6px;
+      height: 6px;
+      top: 8px;
+      left: 6px;
+      background-color: #444;
+    }
+  }
+}
+body#login-page #form-container input[type="checkbox"] {
+  display: block;
+  margin: 0 !important;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  opacity: 0;
+  cursor: pointer;
+  border: none;
+  z-index: 99;
+
+  &:checked + span {
+    &:before {
+      top: 1px;
+      left: -1px;
+      border-width: 2px;
+    }
+    &:after {
+      display: block;
+    }
+  }
+}

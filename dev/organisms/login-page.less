@@ -1,0 +1,99 @@
+body#login-page,
+body#error-page {
+  padding-bottom: 20px;
+}
+
+body#login-page .inner {
+  margin: 0 auto;
+   width: 400px;
+}
+body#login-page #browser-container .inner {
+  margin-top: 1em; 
+  border-top: 1px solid #eee; 
+  padding-top: 2em;
+  width: 740px;
+}
+
+body#login-page #form-container + #browser-container .inner {
+  margin-top: 4em; 
+  border-top: 0; 
+  padding-top: 0;
+  width: 740px;
+  text-align: center;
+}
+
+body#login-page #form-container + #browser-container .inner #rb-logo-container {
+  width: 100%;
+  background-position: center center;
+}
+
+body#login-page #form-container + #browser-container .inner .content p {
+  display: block;
+}
+
+body#login-page #browser-container .inner .content p {
+  display: none;
+  font-size: .9em;
+  margin: .5em 0;
+  color: #aaa;
+}
+
+body#login-page #browser-container .inner .content + .content p {
+  display: block;
+}
+
+body#login-page > .inner:first-child {
+   width: auto;
+   background-color: #fff;
+   border-bottom: 1px solid #eee;
+}
+body#login-page .content,
+body#error-page .content {
+    margin-left: 0;
+}
+#form-container .content:before {
+   content: 'Login';
+   display: block;
+   padding: 38px 0 28px;
+   font-size: 36px;
+   color: #222;
+   font-weight: 300;
+   text-align: center;
+}
+.row-login-fields {
+    position: relative;
+}
+body#login-page #logo-container,
+body#error-page #logo-container {
+   margin: 0 auto;
+   padding: 32px 0 30px;
+    width: 120px;
+   height: auto;
+   background: none;
+}
+body#login-page #logo-container a,
+body#error-page #logo-container a {
+  outline: none;
+  display: block;
+
+  &:before {
+    display: block;
+    content: url("https://site.rbcp.at/images/logo.svg");
+  }
+}
+body#login-page #form-container p.access-link,
+body#error-page #form-container p.access-link {
+   padding: 16px 0;
+   font-size: 16px;
+   font-weight: 400;
+   text-align: center;
+}
+body#login-page #form-container p.access-link a,
+body#error-page #form-container p.access-link a {
+   color: #2c78c1;
+   text-decoration: none;
+}
+body#login-page #form-container p.access-link a:hover,
+body#error-page #form-container p.access-link a:hover {
+   color: #e40a43;
+}

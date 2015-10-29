@@ -1,0 +1,82 @@
+.btn,
+.btn:hover,
+.btn-primary {
+    padding: 4px 0 0;
+    width: auto;
+    height: auto;
+    background: none;
+    color: #222;
+    outline: none;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: none;
+}
+.btn:hover,
+.btn:hover span {
+    color: #e40a43 !important;
+}
+.btn[type="submit"],
+.btn[type="submit"]:hover,
+.btn-primary {
+   padding: 0.6em 0;
+   width: 100%;
+   background: #e40a43;
+   font-size: 24px;
+   text-align: center;
+   color: #fff;
+}
+.btn[type="submit"] span,
+.btn[type="submit"]:hover span {
+   color: #fff !important;
+}
+.btn span {
+   display: inline-block;
+   margin: 0 auto;
+   line-height: normal;
+   color: #0c80c3;
+   text-align: center;
+}
+.btn#btnAddCompanyAddress,
+.btn#btnRemoveCompanyAddress {
+   display: block;
+   margin: 0;
+   position: absolute;
+   top: 30px;
+   right: 0;
+   z-index: 9999;
+}
+.btn#btnRemoveCompanyAddress {
+   margin-bottom: 20px;
+}
+.btn-primary {
+   position: relative;   
+   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+   font-weight: 400;
+   text-shadow: none;
+   -webkit-border-radius: 0 0 3px 3px;
+   -moz-border-radius: 0 0 3px 3px;
+   -ms-border-radius: 0 0 3px 3px;
+   -o-border-radius: 0 0 3px 3px;
+   border-radius: 0 0 3px 3px;
+
+   #login-page .row.remember-me + & {
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+   }
+     
+   #login-page .row.remember-me + &:before {
+      font-size: 24px;
+   }
+}
+
+.btn.icon-login i,
+.icon-login.btn-primary i {
+    display: none;
+}
+.btn-primary:hover {
+    border: none;
+    color: #fff;
+}
