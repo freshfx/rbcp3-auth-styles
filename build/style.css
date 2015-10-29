@@ -1961,8 +1961,11 @@ body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 16px;
 }
-#browser-container,
-#page-footer {
+#browser-container {
+  display: none;
+}
+#page-footer #rb-logo-container,
+#page-footer p {
   display: none;
 }
 #page-footer {
