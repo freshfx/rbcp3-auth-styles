@@ -1969,21 +1969,22 @@ body {
   display: none;
 }
 #page-footer {
-  margin: 30px auto 30px;
+  border-top: 1px solid #eee;
+  margin: 60px auto 30px;
   width: 90%;
   max-width: 960px;
   overflow: hidden;
   text-align: center;
 }
 #page-footer ul {
-  padding: 50px 0 25px;
+  padding: 45px 0 25px;
   overflow: hidden;
   list-style: none;
+  text-align: center;
 }
 #page-footer li {
   position: relative;
-  float: left;
-  text-align: center;
+  display: inline-block;
 }
 #page-footer li:after {
   content: '';
