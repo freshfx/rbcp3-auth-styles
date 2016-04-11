@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400italic,600,700);
 /*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400italic,600,700);
 article,
 aside,
 details,
@@ -55,7 +55,7 @@ dfn {
 }
 mark {
   background: #ff0;
-  color: #000000;
+  color: #000;
 }
 code,
 kbd,
@@ -189,18 +189,18 @@ table {
 .chzn-container-single .chzn-single {
   background-color: #ffffff;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee', GradientType=0);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(20%, #ffffff), color-stop(50%, #f6f6f6), color-stop(52%, #eeeeee), color-stop(100%, #f4f4f4));
-  background-image: -webkit-linear-gradient(top, #ffffff 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
-  background-image: -moz-linear-gradient(top, #ffffff 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
-  background-image: -o-linear-gradient(top, #ffffff 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(20%, #fff), color-stop(50%, #f6f6f6), color-stop(52%, #eee), color-stop(100%, #f4f4f4));
+  background-image: -webkit-linear-gradient(top, #fff 20%, #f6f6f6 50%, #eee 52%, #f4f4f4 100%);
+  background-image: -moz-linear-gradient(top, #fff 20%, #f6f6f6 50%, #eee 52%, #f4f4f4 100%);
+  background-image: -o-linear-gradient(top, #fff 20%, #f6f6f6 50%, #eee 52%, #f4f4f4 100%);
   background-image: linear-gradient(#ffffff 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   border: 1px solid #aaaaaa;
-  -webkit-box-shadow: 0 0 3px #ffffff inset, 0 1px 1px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 0 3px #ffffff inset, 0 1px 1px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 3px #ffffff inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 3px #fff inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 3px #fff inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 3px #fff inset, 0 1px 1px rgba(0, 0, 0, 0.1);
   display: block;
   overflow: hidden;
   white-space: nowrap;
@@ -212,7 +212,7 @@ table {
   text-decoration: none;
 }
 .chzn-container-single .chzn-default {
-  color: #999999;
+  color: #999;
 }
 .chzn-container-single .chzn-single span {
   margin-right: 26px;
@@ -261,11 +261,11 @@ table {
   z-index: 1010;
 }
 .chzn-container-single .chzn-search input {
-  background: #ffffff url("../images/chosen/chosen-sprite.png") no-repeat 100% -22px;
-  background: url("../images/chosen/chosen-sprite.png") no-repeat 100% -22px, -webkit-gradient(linear, 0 0, 0 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
-  background: url("../images/chosen/chosen-sprite.png") no-repeat 100% -22px, -webkit-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
-  background: url("../images/chosen/chosen-sprite.png") no-repeat 100% -22px, -moz-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
-  background: url("../images/chosen/chosen-sprite.png") no-repeat 100% -22px, -o-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+  background: #fff url("../images/chosen/chosen-sprite.png") no-repeat 100% -22px;
+  background: url("../images/chosen/chosen-sprite.png") no-repeat 100% -22px, -webkit-gradient(linear, 0 0, 0 100%, color-stop(1%, #eee), color-stop(15%, #fff));
+  background: url("../images/chosen/chosen-sprite.png") no-repeat 100% -22px, -webkit-linear-gradient(top, #eee 1%, #fff 15%);
+  background: url("../images/chosen/chosen-sprite.png") no-repeat 100% -22px, -moz-linear-gradient(top, #eee 1%, #fff 15%);
+  background: url("../images/chosen/chosen-sprite.png") no-repeat 100% -22px, -o-linear-gradient(top, #eee 1%, #fff 15%);
   background: url("../images/chosen/chosen-sprite.png") no-repeat 100% -22px, linear-gradient(#eeeeee 1%, #ffffff 15%);
   margin: 1px 0;
   padding: 4px 20px 4px 5px;
@@ -288,10 +288,10 @@ table {
 }
 .chzn-container-multi .chzn-choices {
   background-color: #fff;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
-  background-image: -webkit-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
-  background-image: -moz-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
-  background-image: -o-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(1%, #eee), color-stop(15%, #fff));
+  background-image: -webkit-linear-gradient(top, #eee 1%, #fff 15%);
+  background-image: -moz-linear-gradient(top, #eee 1%, #fff 15%);
+  background-image: -o-linear-gradient(top, #eee 1%, #fff 15%);
   background-image: linear-gradient(#eeeeee 1%, #ffffff 15%);
   border: 1px solid #aaa;
   margin: 0;
@@ -326,7 +326,7 @@ table {
   box-shadow: none;
 }
 .chzn-container-multi .chzn-choices .search-field .default {
-  color: #999999;
+  color: #999;
 }
 .chzn-container-multi .chzn-choices .search-choice {
   -webkit-border-radius: 3px;
@@ -337,14 +337,14 @@ table {
   background-clip: padding-box;
   background-color: #e4e4e4;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4', endColorstr='#eeeeee', GradientType=0);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(20%, #f4f4f4), color-stop(50%, #f0f0f0), color-stop(52%, #e8e8e8), color-stop(100%, #eeeeee));
-  background-image: -webkit-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
-  background-image: -moz-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
-  background-image: -o-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(20%, #f4f4f4), color-stop(50%, #f0f0f0), color-stop(52%, #e8e8e8), color-stop(100%, #eee));
+  background-image: -webkit-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
+  background-image: -moz-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
+  background-image: -o-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
   background-image: linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
-  -webkit-box-shadow: 0 0 2px #ffffff inset, 0 1px 0 rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: 0 0 2px #ffffff inset, 0 1px 0 rgba(0, 0, 0, 0.05);
-  box-shadow: 0 0 2px #ffffff inset, 0 1px 0 rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 0 2px #fff inset, 0 1px 0 rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 0 2px #fff inset, 0 1px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 2px #fff inset, 0 1px 0 rgba(0, 0, 0, 0.05);
   color: #333;
   border: 1px solid #aaaaaa;
   line-height: 13px;
@@ -399,7 +399,7 @@ table {
 }
 .chzn-container .chzn-results .highlighted {
   background-color: #5b5b5b;
-  color: #ffffff;
+  color: #fff;
 }
 .chzn-container .chzn-results li em {
   background: #feffde;
@@ -451,7 +451,7 @@ table {
 .chzn-container-multi .chzn-drop .level-noclick {
   cursor: inherit;
   margin-bottom: 1em;
-  color: #cccccc;
+  color: #ccc;
 }
 .chzn-container-multi .chzn-drop .level-noclick.highlighted {
   background-color: inherit;
@@ -474,7 +474,7 @@ table {
   color: #868686;
 }
 .chzn-container-multi .chzn-drop .inactive-parent.highlighted {
-  background-color: #cccccc;
+  background-color: #ccc;
 }
 .chzn-container .chzn-results-scroll {
   background: white;
@@ -512,10 +512,10 @@ table {
   box-shadow: 0 1px 0 #fff inset;
   background-color: #eee;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#ffffff', GradientType=0);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(20%, #eeeeee), color-stop(80%, #ffffff));
-  background-image: -webkit-linear-gradient(top, #eeeeee 20%, #ffffff 80%);
-  background-image: -moz-linear-gradient(top, #eeeeee 20%, #ffffff 80%);
-  background-image: -o-linear-gradient(top, #eeeeee 20%, #ffffff 80%);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(20%, #eee), color-stop(80%, #fff));
+  background-image: -webkit-linear-gradient(top, #eee 20%, #fff 80%);
+  background-image: -moz-linear-gradient(top, #eee 20%, #fff 80%);
+  background-image: -o-linear-gradient(top, #eee 20%, #fff 80%);
   background-image: linear-gradient(#eeeeee 20%, #ffffff 80%);
   -webkit-border-bottom-left-radius: 0;
   -webkit-border-bottom-right-radius: 0;
@@ -539,7 +539,7 @@ table {
   border-bottom: none;
 }
 .chzn-container-active .chzn-choices .search-field input {
-  color: #111111 !important;
+  color: #111 !important;
 }
 .chzn-disabled {
   cursor: default;
@@ -598,11 +598,11 @@ table {
   border-right: none;
 }
 .chzn-rtl .chzn-search input {
-  background: #ffffff url("../images/chosen/chosen-sprite.png") no-repeat -38px -22px;
-  background: url("../images/chosen/chosen-sprite.png") no-repeat -38px -22px, -webkit-gradient(linear, 0 0, 0 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
-  background: url("../images/chosen/chosen-sprite.png") no-repeat -38px -22px, -webkit-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
-  background: url("../images/chosen/chosen-sprite.png") no-repeat -38px -22px, -moz-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
-  background: url("../images/chosen/chosen-sprite.png") no-repeat -38px -22px, -o-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+  background: #fff url("../images/chosen/chosen-sprite.png") no-repeat -38px -22px;
+  background: url("../images/chosen/chosen-sprite.png") no-repeat -38px -22px, -webkit-gradient(linear, 0 0, 0 100%, color-stop(1%, #eee), color-stop(15%, #fff));
+  background: url("../images/chosen/chosen-sprite.png") no-repeat -38px -22px, -webkit-linear-gradient(top, #eee 1%, #fff 15%);
+  background: url("../images/chosen/chosen-sprite.png") no-repeat -38px -22px, -moz-linear-gradient(top, #eee 1%, #fff 15%);
+  background: url("../images/chosen/chosen-sprite.png") no-repeat -38px -22px, -o-linear-gradient(top, #eee 1%, #fff 15%);
   background: url("../images/chosen/chosen-sprite.png") no-repeat -38px -22px, linear-gradient(#eeeeee 1%, #ffffff 15%);
   padding: 4px 5px 4px 20px;
   direction: rtl;
@@ -645,7 +645,7 @@ table {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 .select2-container.select2-drop-above .select2-choice {
   border-bottom-color: #aaa;
@@ -654,9 +654,9 @@ table {
   -ms-border-radius: 0 0 0px 0px;
   -o-border-radius: 0 0 0px 0px;
   border-radius: 0 0 0px 0px;
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eeeeee), color-stop(0.9, #ffffff));
-  background-image: -webkit-linear-gradient(center bottom, #eeeeee 0%, #ffffff 90%);
-  background-image: -moz-linear-gradient(center bottom, #eeeeee 0%, #ffffff 90%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eee), color-stop(0.9, #fff));
+  background-image: -webkit-linear-gradient(center bottom, #eee 0%, #fff 90%);
+  background-image: -moz-linear-gradient(center bottom, #eee 0%, #fff 90%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee', GradientType=0);
   background-image: linear-gradient(top, #eeeeee 0%, #ffffff 90%);
 }
@@ -763,9 +763,9 @@ table {
   border-radius: 0 0px 0px 0;
   background-clip: padding-box;
   background: #ccc;
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #cccccc), color-stop(0.6, #eeeeee));
-  background-image: -webkit-linear-gradient(center bottom, #cccccc 0%, #eeeeee 60%);
-  background-image: -moz-linear-gradient(center bottom, #cccccc 0%, #eeeeee 60%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ccc), color-stop(0.6, #eee));
+  background-image: -webkit-linear-gradient(center bottom, #ccc 0%, #eee 60%);
+  background-image: -moz-linear-gradient(center bottom, #ccc 0%, #eee 60%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#cccccc', GradientType=0);
   background-image: linear-gradient(top, #cccccc 0%, #eeeeee 60%);
 }
@@ -797,20 +797,20 @@ table {
   font-size: 1em;
   border: 1px solid #aaa;
   border-radius: 0;
-  background: #ffffff url("../images/select2/select2.png") no-repeat 100% -22px;
-  background: url("../images/select2/select2.png") no-repeat 100% -22px, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, #ffffff), color-stop(0.99, #eeeeee));
-  background: url("../images/select2/select2.png") no-repeat 100% -22px, -webkit-linear-gradient(center bottom, #ffffff 85%, #eeeeee 99%);
-  background: url("../images/select2/select2.png") no-repeat 100% -22px, -moz-linear-gradient(center bottom, #ffffff 85%, #eeeeee 99%);
+  background: #fff url("../images/select2/select2.png") no-repeat 100% -22px;
+  background: url("../images/select2/select2.png") no-repeat 100% -22px, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, #fff), color-stop(0.99, #eee));
+  background: url("../images/select2/select2.png") no-repeat 100% -22px, -webkit-linear-gradient(center bottom, #fff 85%, #eee 99%);
+  background: url("../images/select2/select2.png") no-repeat 100% -22px, -moz-linear-gradient(center bottom, #fff 85%, #eee 99%);
   background: url("../images/select2/select2.png") no-repeat 100% -22px, linear-gradient(top, #ffffff 85%, #eeeeee 99%);
 }
 .select2-drop.select2-drop-above .select2-search input {
   margin-top: 4px;
 }
 .select2-search input.select2-active {
-  background: #ffffff url("../images/select2/select2-spinner.gif") no-repeat 100%;
-  background: url("../images/select2/select2-spinner.gif") no-repeat 100%, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, #ffffff), color-stop(0.99, #eeeeee));
-  background: url("../images/select2/select2-spinner.gif") no-repeat 100%, -webkit-linear-gradient(center bottom, #ffffff 85%, #eeeeee 99%);
-  background: url("../images/select2/select2-spinner.gif") no-repeat 100%, -moz-linear-gradient(center bottom, #ffffff 85%, #eeeeee 99%);
+  background: #fff url("../images/select2/select2-spinner.gif") no-repeat 100%;
+  background: url("../images/select2/select2-spinner.gif") no-repeat 100%, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, #fff), color-stop(0.99, #eee));
+  background: url("../images/select2/select2-spinner.gif") no-repeat 100%, -webkit-linear-gradient(center bottom, #fff 85%, #eee 99%);
+  background: url("../images/select2/select2-spinner.gif") no-repeat 100%, -moz-linear-gradient(center bottom, #fff 85%, #eee 99%);
   background: url("../images/select2/select2-spinner.gif") no-repeat 100%, linear-gradient(top, #ffffff 85%, #eeeeee 99%);
 }
 .select2-container-active .select2-choice,
@@ -823,9 +823,9 @@ table {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   background-color: #eee;
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ffffff), color-stop(0.5, #eeeeee));
-  background-image: -webkit-linear-gradient(center bottom, #ffffff 0%, #eeeeee 50%);
-  background-image: -moz-linear-gradient(center bottom, #ffffff 0%, #eeeeee 50%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #fff), color-stop(0.5, #eee));
+  background-image: -webkit-linear-gradient(center bottom, #fff 0%, #eee 50%);
+  background-image: -moz-linear-gradient(center bottom, #fff 0%, #eee 50%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#ffffff', GradientType=0);
   background-image: linear-gradient(top, #ffffff 0%, #eeeeee 50%);
 }
@@ -833,9 +833,9 @@ table {
 .select2-dropdown-open.select2-drop-above .select2-choices {
   border: 1px solid #5b5b5b;
   border-top-color: transparent;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(0.5, #eeeeee));
-  background-image: -webkit-linear-gradient(center top, #ffffff 0%, #eeeeee 50%);
-  background-image: -moz-linear-gradient(center top, #ffffff 0%, #eeeeee 50%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(0.5, #eee));
+  background-image: -webkit-linear-gradient(center top, #fff 0%, #eee 50%);
+  background-image: -moz-linear-gradient(center top, #fff 0%, #eee 50%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#ffffff', GradientType=0);
   background-image: linear-gradient(bottom, #ffffff 0%, #eeeeee 50%);
 }
@@ -918,7 +918,7 @@ table {
 }
 .select2-results .select2-highlighted {
   background: #5b5b5b;
-  color: #ffffff;
+  color: #fff;
 }
 .select2-results li em {
   background: #feffde;
@@ -929,7 +929,7 @@ table {
 }
 .select2-results .select2-highlighted ul {
   background: #fff;
-  color: #000000;
+  color: #000;
 }
 .select2-results .select2-no-results,
 .select2-results .select2-searching,
@@ -1023,10 +1023,10 @@ table {
   padding: 5px;
 }
 .select2-container-multi .select2-choices .select2-search-field input.select2-active {
-  background: #ffffff url("../images/select2/select2-spinner.gif") no-repeat 100% !important;
+  background: #fff url("../images/select2/select2-spinner.gif") no-repeat 100% !important;
 }
 .select2-default {
-  color: #999999 !important;
+  color: #999 !important;
 }
 .select2-container-multi .select2-choices .select2-search-choice {
   padding: 3px 5px 3px 18px;
@@ -1049,9 +1049,9 @@ table {
   user-select: none;
   background-color: #e4e4e4;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#f4f4f4', GradientType=0);
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(20%, #f4f4f4), color-stop(50%, #f0f0f0), color-stop(52%, #e8e8e8), color-stop(100%, #eeeeee));
-  background-image: -webkit-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
-  background-image: -moz-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(20%, #f4f4f4), color-stop(50%, #f0f0f0), color-stop(52%, #e8e8e8), color-stop(100%, #eee));
+  background-image: -webkit-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
+  background-image: -moz-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
   background-image: linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
 }
 .select2-container-multi .select2-choices .select2-search-choice .select2-chosen {
@@ -1956,6 +1956,11 @@ select,
 button {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 16px;
+}
+.is-required > label:after {
+  content: "*";
+  display: inline-block;
+  margin-left: 0.2em;
 }
 body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
