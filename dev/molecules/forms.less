@@ -8,3 +8,10 @@ input, textarea, keygen, select, button {
     display: inline-block;
     margin-left: 0.2em;
 }
+
+input[type=text][disabled],
+input[type=radio][disabled] + label,
+.select2-container-disabled {
+    opacity: 0.4;
+    cursor: default!important;
+}
