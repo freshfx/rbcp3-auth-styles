@@ -2162,12 +2162,8 @@ body#error-page #logo-container {
 }
 body#login-page #logo-container a,
 body#error-page #logo-container a {
-  outline: none;
-  display: block;
-}
-body#login-page #logo-container a:before,
-body#error-page #logo-container a:before {
-  display: block;
+  width: 120px;
+  height: 54px;
   content: url("https://site.rbcp.at/images/logo.svg");
 }
 body#login-page #form-container p.access-link,
@@ -2200,11 +2196,8 @@ body#error-page #form-container p.access-link a:hover {
   width: 120px;
 }
 #page-header > h1 a {
-  outline: none;
-  display: block;
-}
-#page-header > h1 a:before {
-  display: block;
+  width: 120px;
+  height: 54px;
   content: url("https://site.rbcp.at/images/logo.svg");
 }
 iframe {
