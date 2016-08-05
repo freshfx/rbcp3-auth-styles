@@ -1,0 +1,5 @@
+#!/bin/bash
+
+lessc dev/main.less build/style.css
+lessc --clean-css="--s0 --advanced --compatibility=ie8" dev/main.less build/style.min.css
+echo "less done"

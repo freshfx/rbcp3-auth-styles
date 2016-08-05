@@ -1,0 +1,4 @@
+#!/bin/bash
+
+onchange 'dev/**/*.less' -i -- npm run build
+
