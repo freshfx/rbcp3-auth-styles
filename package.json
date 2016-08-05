@@ -2,7 +2,7 @@
   "name": "rbcp3-auth-styles",
   "version": "0.1.0",
   "scripts": {
-    "build": "./bin/less",
+    "build": "./bin/build",
     "watch": "./bin/watch"
   },
   "devDependencies": {
