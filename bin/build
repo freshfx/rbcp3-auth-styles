@@ -2,4 +2,3 @@
 
 ./bin/less
 ./bin/zip
-echo "build done"

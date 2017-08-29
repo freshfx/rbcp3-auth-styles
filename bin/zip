@@ -1,4 +1,3 @@
 #!/bin/bash
 
 zip -r build/cp3-styling.zip build/*.css
-echo "zip done"
