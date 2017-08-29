@@ -1,6 +1,6 @@
 {
   "name": "rbcp3-auth-styles",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "scripts": {
     "build": "npm run version",
     "watch": "./bin/watch",
