@@ -1,9 +1,11 @@
 {
   "name": "rbcp3-auth-styles",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "scripts": {
-    "build": "./bin/build",
-    "watch": "./bin/watch"
+    "build": "npm run version",
+    "watch": "./bin/watch",
+    "version": "./bin/version",
+    "postversion": "./bin/postversion"
   },
   "devDependencies": {
     "less": "^2.7.1",

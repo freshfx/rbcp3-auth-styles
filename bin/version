@@ -1,0 +1,10 @@
+#!/bin/bash
+
+LESS_HEADER="\/\*! RBCP Login\/Registration CSS v$npm_package_version | $(date +'%Y-%m-%d') \*\/"
+sed -i.bak "1s/.*/$LESS_HEADER/" dev/main.less
+rm dev/main.less.bak
+
+./bin/build
+./bin/zip
+
+git add -A
